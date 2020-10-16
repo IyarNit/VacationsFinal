@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+td, tr, th {
+  border: 1px;
+  border: solid;
+  color: black;
+  border-Collapse: Collapse;
+  text-Align: center;
+}
+
+.table {
+  border: 1px;
+  border: solid;
+  color: black;
+  border-Collapse: Collapse;
+  width: 1200px;
+  table-Layout: fixed;
+  text-Align: center;
+  margin: auto
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
+
+.vacationsHeader {
+  margin-bottom: 40px;
+}
+
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+
+.colorBlue {
+  color: darkblue;
+}
+
+/* .body{
+  background-color: #669fad;
+} */
+
+.body {
+  background-color: #ffffff;
+}
+
+.backBtn {
+  margin-bottom: 30px;
+}
+
+.admnBtn {
+  margin-bottom: 15px;
+}
+
+.admnEditImg {
+  height: 20px;
+}
+
+.admnEditImg:hover {
+  height: 40px;
+}
+
+.admndelete:hover {
+  font-size: 30px;
+}
+
+.myCard {
+  border: 1px solid rgb(113, 221, 221)
+}
+
+.airplnImg {
+  height: 250px;
+  width: 400px;
+}
+
+.airplnInNav {
+  height: 25px;
+  width: 40px;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 30px;
+  position: absolute;
+  /* z-index: -1; */
+}
+
+@media (max-width:800px) {
+  .logo {
+    display: none;
+  }
+}
